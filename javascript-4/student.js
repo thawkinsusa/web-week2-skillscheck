@@ -31,7 +31,7 @@ superPowerEXP(){
     Math.floor(Math.random() * 100) + 1
     return me.superPowerXP
 },
-profileImage:"https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg"
+profileImage: new url (randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg)
 }
 //////////////////Step 3////////////////////
 // Create three variables to hold some data off your me object. The first variable should be 'regularName' that is the value of your firstName on the me objece next variable is 'superName' which is the value of superHeroName on the me object. Last is 'homeTown' which will be the value of homeTown on the me object
